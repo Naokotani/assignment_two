@@ -1,0 +1,28 @@
+* Running
+In order to run the web server just run the executable in a linux BASH environment =./server=. Since the binary is for linux, if you are on Windows, you can install Bun and in the root directory run =bun run index.ts=. The server will run by default on =http://localhost:7979=.
+
+* Question One
+The code for question one is located in =src/questionOne.ts=
+
+* Question Two
+  The code for question two is located in =src/questionTwo.ts=. I ended up using a get request to the server with the email sent in a query string, so =@= shows up as =%40=, so I used that to validate the email. 
+
+* Question Three
+For question three =src/questionThree.ts= just loads the button, the actual function is located in =/static/js/questionThree.js=
+
+* Question Four
+Everything for question four is located in =src/questionFour.ts=
+
+* Question Five
+The code for question five is in =src/questionFive.ts= and =static/js/questionFive.js=
+
+In terms of the differences between Axios and fetch. Axios is able to give more detailed error messages, while fetch will only throw an error if there is a network error. Axios also eliminates some boilerplate by combining some tasks, like parsing json.
+
+* Question Six 
+The code for question six is in =src/questionSix.ts= and =/static/js/questionSix.js=
+
+* Question Seven
+Everything for question seven is in =src/questionSeven.ts=
+
+* Question 8
+The whole thing is the answer for question 8

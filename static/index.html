@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en>
+		<head	>
+				<meta charset="UTF-8"/>
+				<title>Chris Hughes dot Dev</title>
+				<link rel="stylesheet" type="text/css" href="css/normalize.css">
+				<link rel="stylesheet" type="text/css" href="css/styles.css">
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<meta
+						name="description"
+						content="A Developer blog for Chris Hughes. Specializes in JavaScript, Rust, Web development, SQL" />
+				<script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
+				<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		</head>
+		<body class="layout">
+				<h1>Chris Hughes Assingment Two</h1>
+				<ul>
+						<li><a href="" hx-get="{{API_URL}}question/1" hx-target="#contentDiv">Question One</a></li>
+						<li><a href="" hx-get="{{API_URL}}question/2" hx-target="#contentDiv">Question Two</a></li>
+						<li><a href="" hx-get="{{API_URL}}question/3" hx-target="#contentDiv">Question Three</a></li>
+						<li><a href="" hx-get="{{API_URL}}question/4" hx-target="#contentDiv">Question Four</a></li>
+						<li><a href="" hx-get="{{API_URL}}question/5" hx-target="#contentDiv">Question Five</a></li>
+						<li><a href="" hx-get="{{API_URL}}question/6" hx-target="#contentDiv">Question Six</a></li>
+						<li><a href="" hx-get="{{API_URL}}question/7" hx-target="#contentDiv">Question Seven</a></li>
+				</ul>
+				<div id="contentDiv"></div>
+				<script src="js/questionThree.js"></script>
+				<script src="js/questionFive.js"></script>
+				<script src="js/questionSix.js"></script>
+		</body>
+</html>
